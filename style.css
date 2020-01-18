@@ -1,0 +1,20 @@
+#section1 {
+    display: flex;
+    background-image: linear-gradient(to right, red, yellow);
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    flex-direction: column;
+}
+#section2 {
+    display: none;
+    background-image: linear-gradient(red,yellow);
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    flex-direction: column;
+}
+
+#swapButton {
+    display: none;
+}
